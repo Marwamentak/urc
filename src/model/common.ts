@@ -13,6 +13,7 @@ export interface User {
 }
 
 export interface Session {
+    user_id: number | undefined;
     token: string;
     username?: string;
     id?: number;
